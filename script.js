@@ -1,7 +1,10 @@
 // TODO 1: Declare & assign variables pointing to the corresponding element(s)
 // statement should be the "statement" div
+const statement = document.getElementById("statement");
 // optionButtons should be all the elements within the "options" div
+const optionButtons = document.querySelector("#options").children;
 // explanation should be the "explanation" div
+const explanation = document.getElementById("explanation");
 
 // TODO 2: Declare & assign a variable called fact
 // Its value should be an object with a statement, true/false answer, and explanation
