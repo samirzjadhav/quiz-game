@@ -8,6 +8,11 @@ const explanation = document.getElementById("explanation");
 
 // TODO 2: Declare & assign a variable called fact
 // Its value should be an object with a statement, true/false answer, and explanation
+const fact = {
+  statement: "array are like object",
+  answer: true,
+  explanation: "Array are a kind of object with special properties",
+};
 
 // TODO 3: Set the text of the statement element to the fact's statement
 
