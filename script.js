@@ -16,11 +16,15 @@ const fact = {
 
 // TODO 3: Set the text of the statement element to the fact's statements
 statement.textContent = fact.statement;
-optionButtons.textContent = fact.answer;
 
 // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
 // disable(button) should set the button element's attribute "disabled" to the value ""
+const disable = (button) => button.setAttribute("disabled", "");
+console.log(disable);
+
 // enable(button) should remove the attribute "disabled" from the button element
+const enable = (button) => button.removeAttribute("disabled");
+console.log(enable);
 
 // TODO 5: Declare an isCorrect function that compares a guess to the right answer
 // isCorrect(guess) should return true if the guess matches the fact's answer
