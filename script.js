@@ -20,14 +20,15 @@ statement.textContent = fact.statement;
 // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
 // disable(button) should set the button element's attribute "disabled" to the value ""
 const disable = (button) => button.setAttribute("disabled", "");
-console.log(disable);
 
 // enable(button) should remove the attribute "disabled" from the button element
 const enable = (button) => button.removeAttribute("disabled");
-console.log(enable);
 
 // TODO 5: Declare an isCorrect function that compares a guess to the right answer
 // isCorrect(guess) should return true if the guess matches the fact's answer
+function isCorrect(guess) {
+  return guess === fact.answer;
+}
 
 // TODO 6A: Use a for loop to add a click event listener to each of the optionButtons
 // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
