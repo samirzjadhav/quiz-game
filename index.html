@@ -8,23 +8,22 @@
     <title>Quiz Game</title>
   </head>
   <body>
-    <body data-new-gr-c-s-check-loaded="8.906.0" data-gr-ext-installed="">
-      <header>
-        <h1>Quiz Game</h1>
-        <p>Do you know JS? Find out!</p>
-      </header>
+    <header>
+      <h1>Quiz.js</h1>
+      <p>Do you know JS? Find out!</p>
+      <div id="score">
+        Score: <span id="correct">0</span> / <span id="completed">0</span>
+      </div>
+    </header>
 
-      <main>
-        <div id="statement"></div>
-
-        <div id="options">
-          <button name="true" value="true">true</button>
-          <button name="false" value="false">false</button>
-        </div>
-
-        <div id="explanation"></div>
-      </main>
-      <script src="./script.js"></script>
-    </body>
+    <main>
+      <div id="statement"></div>
+      <div id="options">
+        <button name="true" value="true">true</button>
+        <button name="false" value="false">false</button>
+      </div>
+      <div id="explanation" class="hidden"></div>
+      <button id="next-question" name="next-question">Next Question</button>
+    </main>
   </body>
 </html>

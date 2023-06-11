@@ -24,7 +24,8 @@ main {
   margin: 1rem 0px;
   min-height: 2em;
 }
-#explanation {
+#explanation,
+#score {
   padding: 1rem;
   text-align: center;
 }
@@ -43,4 +44,7 @@ button {
 }
 .incorrect {
   background-color: lightpink;
+}
+.hidden {
+  display: none;
 }
